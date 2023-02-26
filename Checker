@@ -1,25 +1,8 @@
 if game.PlaceId == 12413542851 then
 
-local starterGui = game:GetService("StarterGui")
-
-wait(1)
-starterGui:SetCore("SendNotification", {
-   Title = "GodWare Loaded.";
-   Text = "Hub loaded";
-   Duration = 20;
-})
-
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/ScripterXD4/GodWareHub/main/Hub"), true))()
 
 else
 
-local starterGui = game:GetService("StarterGui")
-
-wait(1)
-starterGui:SetCore("SendNotification", {
-   Title = "Game Not Supported";
-   Text = "Please try the game in Drop Kick";
-   Duration = 20;
-})
-
+error("Script not supported!")
 
